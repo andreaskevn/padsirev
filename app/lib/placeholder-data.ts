@@ -6,7 +6,7 @@ const roles = [
     nama_role: 'Pemilik',
   },
   {
-    idRole: '3958dc9e-712f-4377-85e9-fec4b6a6442a',
+    idRole: '3958dw9e-712f-4377-85e9-fec4b6a6442a',
     nama_role: 'Pegawai',
   },
 ];
@@ -114,7 +114,7 @@ const bahanBakus = [
 
 const transaksiPembelians = [
   {
-    idTransaksiBeli: '387e10c5-8423-409d-993f-ac6de5460880',
+    idTransaksiBeli: '387e17c5-8423-409d-993f-ac6de5460880',
     idUser: users[0].idUser,
     idBahanBaku: bahanBakus[0].idBahanBaku,
   },
@@ -122,7 +122,7 @@ const transaksiPembelians = [
 
 const detailTransaksiPembelians = [
   {
-    idDetailPembelian: '387e10c5-8423-409d-993f-ac6de5460880',
+    idDetailPembelian: '387e10p5-8423-409d-993f-ac6de5460880',
     idTransaksiBeli: transaksiPembelians[0].idTransaksiBeli,
     idBahanBaku: bahanBakus[0].idBahanBaku,
     namaUser: users[0].username,

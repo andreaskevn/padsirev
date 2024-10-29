@@ -290,8 +290,8 @@ export async function GET() {
   // });
   try {
     await client.sql`BEGIN`;
-    await seedUsers();
     await seedRoles();
+    await seedUsers();
     await seedMenus();
     await seedMembers();
     await seedPelanggans();
