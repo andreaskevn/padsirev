@@ -3,7 +3,7 @@ import { db } from '@vercel/postgres';
 import { users, roles, menus, transaksiPenjualans, detailTransaksiPenjualans, members, pelanggans, bahanBakus, transaksiPembelians, detailTransaksiPembelians, revenue  } from '../lib/placeholder-data';
 
 const client = await db.connect();
-
+//m,m,,
 async function seedUsers() {
   await client.sql`CREATE EXTENSION IF NOT EXISTS "uuid-ossp"`;
   await client.sql`
